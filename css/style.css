@@ -7,55 +7,73 @@
 
 /* utility  */
 .debug{
-    border: 1px dashed black;
+        
+
     header{
         background-color: skyblue;
+        border: 1px dashed black;
     }
     #menu{
         background-color: gold;
+        border: 1px dashed black;
+    }
+    #menu div:nth-child(2) {
+        border: 1px dashed black;
     }
     #jumbotron{
         background-color: blue;
-    border-bottom: 4px solid skyblue;
+        border-bottom: 4px solid skyblue;
     }
     #jumbotron-content{
         background-color: palevioletred;
-        
+        border: 1px dashed black;
     }
     #invite-only, #fandom{
         background-color: white;
+        border: 1px dashed black;
     }
     .section-content div:nth-child(1){
         background-color: cornflowerblue;
+        border: 1px dashed black;
     }
     .section-content div:nth-child(2){
         background-color: pink;
+        border: 1px dashed black;
     }
     #community{
         background-color: lightgrey;
+        border: 1px dashed black;
     }
     #tech{
         background-color: lightgrey;
+        border: 1px dashed black;
     }
     #tech-content{
         background-color: green;
+        border: 1px dashed black;
     }
     footer{
         background-color: black;
+        border: 1px dashed black;
     }.up-foot-container div:nth-child(1){
         background-color: pink;
+        border: 1px dashed black;
     }
     .up-footer-section{
         background-color: turquoise;
+        border: 1px dashed black;
     }
     #flex-foot-content button{
         background-color: pink;
+        border: 1px dashed black;
     }
     #flex-foot-content{
         background-color: aquamarine;
+        border: 1px dashed black;
     }
     #flex-foot-content div{
         background-color: pink;
+        border: 1px dashed black;
     }
 }
 
