@@ -67,3 +67,14 @@ ul{
 #menu{
     background-color: gold;
 }
+
+/* jumbotron  */
+#jumbotron{
+    min-height: 30rem;
+    background-color: blue;
+}
+
+#jumbotron-content{
+    background-color: palevioletred;
+    min-height: 20rem;
+}
