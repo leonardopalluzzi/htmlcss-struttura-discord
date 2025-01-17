@@ -129,3 +129,17 @@ ul{
     background-color: lightgrey;
     min-height: 30rem;
 }
+
+/* technology  */
+#tech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50rem;
+    background-color: lightgrey;
+}
+
+#tech-content{
+    background-color: green;
+    min-height: 45rem;
+}
