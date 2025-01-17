@@ -8,6 +8,55 @@
 /* utility  */
 .debug{
     border: 1px dashed black;
+    header{
+        background-color: skyblue;
+    }
+    #menu{
+        background-color: gold;
+    }
+    #jumbotron{
+        background-color: blue;
+    border-bottom: 4px solid skyblue;
+    }
+    #jumbotron-content{
+        background-color: palevioletred;
+        
+    }
+    #invite-only, #fandom{
+        background-color: white;
+    }
+    .section-content div:nth-child(1){
+        background-color: cornflowerblue;
+    }
+    .section-content div:nth-child(2){
+        background-color: pink;
+    }
+    #community{
+        background-color: lightgrey;
+    }
+    #tech{
+        background-color: lightgrey;
+    }
+    #tech-content{
+        background-color: green;
+    }
+    footer{
+        background-color: black;
+    }.up-foot-container div:nth-child(1){
+        background-color: pink;
+    }
+    .up-footer-section{
+        background-color: turquoise;
+    }
+    #flex-foot-content button{
+        background-color: pink;
+    }
+    #flex-foot-content{
+        background-color: aquamarine;
+    }
+    #flex-foot-content div{
+        background-color: pink;
+    }
 }
 
 /* header  */
@@ -23,7 +72,6 @@
 
 header{
     min-height: 3rem;
-    background-color: skyblue;
 }
 
 #menu.hd-flex-container div:nth-child(2){
@@ -58,10 +106,6 @@ ul{
     }
 }
 
-#menu{
-    background-color: gold;
-}
-
 /* jumbotron  */
 .jt-flex-container{
     display: flex;
@@ -76,13 +120,6 @@ ul{
 
 #jumbotron{
     min-height: 40rem;
-    background-color: blue;
-    border-bottom: 4px solid skyblue;
-}
-
-#jumbotron-content{
-    background-color: palevioletred;
-    
 }
 
 
@@ -104,17 +141,14 @@ ul{
 }
 
 #invite-only, #fandom{
-    background-color: white;
     min-height: 40rem;
 }
 
 .section-content div:nth-child(1){
-    background-color: cornflowerblue;
     min-width: 60%;
 }
 
 .section-content div:nth-child(2){
-    background-color: pink;
     min-width: 40%;
 }
 
@@ -125,7 +159,6 @@ ul{
 }
 
 #community{
-    background-color: lightgrey;
     min-height: 40rem;
 }
 
@@ -135,19 +168,13 @@ ul{
     justify-content: center;
     align-items: center;
     min-height: 50rem;
-    background-color: lightgrey;
 }
 
 #tech-content{
-    background-color: green;
     min-height: 45rem;
 }
 
 /* footer  */
-footer{
-    background-color: black;
-}
-
 .flex-footer{
     display: flex;
     justify-content: center;
@@ -160,27 +187,10 @@ footer{
 }
 
 .up-foot-container div:nth-child(1){
-    background-color: pink;
     min-width: 35%;
 }
 
-.up-foot-container div:nth-child(2){
-    background-color: turquoise;
-    min-width: 16.25%;
-}
-
-.up-foot-container div:nth-child(3){
-    background-color: turquoise;
-    min-width: 16.25%;
-}
-
-.up-foot-container div:nth-child(4){
-    background-color: turquoise;
-    min-width: 16.25%;
-}
-
-.up-foot-container div:nth-child(5){
-    background-color: turquoise;
+.up-footer-section{
     min-width: 16.25%;
 }
 
@@ -193,18 +203,15 @@ hr{
     justify-content: space-between;
     align-items: center;
     min-height: 3.5rem;
-    background-color: aquamarine;
     margin-top: 1.5rem;
 }
 
 #flex-foot-content div{
-    background-color: pink;
     padding: 0.2rem;
     font-size: 0.8rem;
 }
 
 #flex-foot-content button{
-    background-color: pink;
     padding: 0.2rem;
     font-size: 0.8rem;
 }
