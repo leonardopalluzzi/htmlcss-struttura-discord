@@ -5,15 +5,6 @@
     box-sizing: border-box;
 }
 
-html, body{
-    width: 100%;
-}
-
-.section-size{
-    width: 60%;
-    margin: auto;
-}
-
 /* utility  */
 .debug{
     border: 1px dashed black;
@@ -22,28 +13,33 @@ html, body{
     }
 }
 
-.flex-container{
+/* header  */
+.hd-flex-container{
     display: flex;
     justify-content: center;
 }
 
-/* header  */
+.header-size{
+    width: 60%;
+    margin: auto;
+}
+
 header{
     min-height: 3rem;
 }
 
-div.flex-container div:nth-child(2){
+#menu.hd-flex-container div:nth-child(2){
     width: 70%;
     text-align: center;
     padding: 5px;
 }
 
-div.flex-container div:nth-child(1){
+#menu.hd-flex-container div:nth-child(1){
     width: 15%;
     padding: 5px;
 }
 
-div.flex-container div:nth-child(3){
+#menu.hd-flex-container div:nth-child(3){
     width: 15%;
     text-align: right;
     padding: 5px;
@@ -69,6 +65,17 @@ ul{
 }
 
 /* jumbotron  */
+.jt-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.jt-section-size{
+    width: 50%;
+    margin: auto;
+    min-height: 20rem;
+}
+
 #jumbotron{
     min-height: 30rem;
     background-color: blue;
@@ -76,5 +83,49 @@ ul{
 
 #jumbotron-content{
     background-color: palevioletred;
+    
+}
+
+
+/* common invite, community, fandom, sections  */
+.section-flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-flex-container{
+    display: flex;
+}
+
+.section-size{
+    width: 70%;
+    margin: auto;
     min-height: 20rem;
+}
+
+#invite-only, #fandom{
+    background-color: white;
+    min-height: 30rem;
+}
+
+.section-content div:nth-child(1){
+    background-color: cornflowerblue;
+    min-width: 60%;
+}
+
+.section-content div:nth-child(2){
+    background-color: pink;
+    min-width: 40%;
+}
+
+/* community  */
+.community-flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#community{
+    background-color: lightgrey;
+    min-height: 30rem;
 }
